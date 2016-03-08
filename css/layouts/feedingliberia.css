@@ -132,7 +132,9 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background: #1f8dd6;
+    background: #1f8dd6 url('volunteers.jpg') no-repeat fixed center;
+    background-size: contain;
+    /*background-image: ;*/
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -164,6 +166,7 @@ a.pure-button-primary {
     font-weight: 100;
     border-radius: 5px;
     line-height: 1em;
+    background-color:rgba(0, 0, 0, 0.5);
 }
 
 /* This is the subheading that appears on the blue section */
